@@ -31,10 +31,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 local languages = {
-   "clangd",
-   "html",
-   "cssls",
-   "tsserver",
    "emmet_ls",
    "eslint",
    "pyright",
@@ -92,10 +88,6 @@ return {
       opts = {
          ensure_installed = {
             "lua_ls",
-            "clangd",
-            "html",
-            "cssls",
-            "tsserver",
             "eslint",
             "tailwindcss",
             "pyright",
