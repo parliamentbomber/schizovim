@@ -1,0 +1,2 @@
+# schizovim
+nvim for schizos
