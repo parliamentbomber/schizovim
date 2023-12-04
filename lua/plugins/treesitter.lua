@@ -25,6 +25,9 @@ return {
       end,
    },
    {
+      "luckasRanarison/tree-sitter-hypr",
+   },
+   {
       "nvim-treesitter/nvim-treesitter-context",
       config = function()
          vim.cmd("hi TreesitterContextBottom gui=underdashed guisp=#585b70")
